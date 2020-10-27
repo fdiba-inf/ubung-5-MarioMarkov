@@ -18,7 +18,6 @@ public class AscendingSort {
         }
 
         // Sort numbers in ascending order
-        int minNumber= 0;
         for (int j = 0; j < numbers.length; j++){
             for (int i = 0; i < numbers.length -1; i++){
                 int temp =0;
