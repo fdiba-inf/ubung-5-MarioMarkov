@@ -15,10 +15,19 @@ public class UniqueNumbers {
         System.out.println("Enter numbers: ");
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
+
         }
 
         int[] uniqueNumbers = new int[numbers.length];
+
         // Find unique numbers in numbers
+        for (int i = 0 ; i< numbers.length;i++){
+            for (int j = 0 ; j< numbers.length;j++){
+                if(numbers[i]==numbers[j]){
+
+                }
+            }
+        }
 
         String uniqueNumbersAsString = Arrays.toString(uniqueNumbers);
         System.out.println("Unique numbers: " + uniqueNumbersAsString);
